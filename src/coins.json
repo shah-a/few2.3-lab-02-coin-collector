@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Penny",
+    "value": 0.01,
+    "quantity": 0
+  },
+  {
+    "name": "Nickle",
+    "value": 0.05,
+    "quantity": 0
+  },
+  {
+    "name": "Dime",
+    "value": 0.10,
+    "quantity": 0
+  },
+  {
+    "name": "Quarter",
+    "value": 0.25,
+    "quantity": 0
+  }
+]
