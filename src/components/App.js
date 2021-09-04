@@ -2,6 +2,7 @@ import './App.css';
 import coinData from '../coins.json';
 
 import { useState } from 'react';
+import pluralize from 'pluralize';
 
 function App() {
   const [coins, setCoins] = useState(coinData);
@@ -10,9 +11,18 @@ function App() {
     return acc + (coin.value * coin.quantity);
   }, 0);
 
+  const labels = coins.map((coin, index) => {
+    return (
+      <span key={coin.name}>
+        {pluralize(coin.name)}: {coins[index].quantity}
+      </span>
+    );
+  });
+
   const buttons = coins.map((coin, index) => {
     return (
       <button
+        key={coin.name}
         onClick={() => {
           const newCoins = [...coins];
           newCoins[index].quantity += 1;
@@ -26,7 +36,7 @@ function App() {
     <div className="App">
       <h1>Coin Collector!</h1>
       <h2>Total: ${total.toFixed(2)}</h2>
-      <p>Pennies: {coins[0].quantity} | Nickles: {coins[1].quantity} | Dimes: {coins[2].quantity} | Quarters: {coins[3].quantity}</p>
+      <p>{labels[0]} | {labels[1]} | {labels[2]} | {labels[3]}</p>
       {buttons}
     </div>
   );
