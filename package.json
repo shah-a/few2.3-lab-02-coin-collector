@@ -1,5 +1,6 @@
 {
-  "name": "2.3-exercise-03-lab-02",
+  "name": "2.3-lab-02-coin-collector",
+  "homepage": "https://shah-a.github.io/few2.3-lab-02-coin-collector",
   "version": "0.1.0",
   "private": true,
   "scripts": {
