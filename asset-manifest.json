@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/few2.3-lab-02-coin-collector/static/css/main.17d0a7df.chunk.css",
-    "main.js": "/few2.3-lab-02-coin-collector/static/js/main.1ab98d0f.chunk.js",
-    "main.js.map": "/few2.3-lab-02-coin-collector/static/js/main.1ab98d0f.chunk.js.map",
+    "main.js": "/few2.3-lab-02-coin-collector/static/js/main.f4e2af39.chunk.js",
+    "main.js.map": "/few2.3-lab-02-coin-collector/static/js/main.f4e2af39.chunk.js.map",
     "runtime-main.js": "/few2.3-lab-02-coin-collector/static/js/runtime-main.94169f6a.js",
     "runtime-main.js.map": "/few2.3-lab-02-coin-collector/static/js/runtime-main.94169f6a.js.map",
     "static/js/2.5d808ece.chunk.js": "/few2.3-lab-02-coin-collector/static/js/2.5d808ece.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.94169f6a.js",
     "static/js/2.5d808ece.chunk.js",
     "static/css/main.17d0a7df.chunk.css",
-    "static/js/main.1ab98d0f.chunk.js"
+    "static/js/main.f4e2af39.chunk.js"
   ]
 }
